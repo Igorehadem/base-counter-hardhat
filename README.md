@@ -12,3 +12,5 @@ Small sample Solidity project with a `Counter` contract.
 npm install
 npx hardhat compile
 npx hardhat run scripts/deploy.js --network base
+---
+Update: verified deployment scripts added soon.
