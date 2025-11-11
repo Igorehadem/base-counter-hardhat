@@ -1,17 +1,55 @@
-# Base Counter – Minimal Hardhat Template
 
-Small sample Solidity project with a `Counter` contract.
+# ⚙️ Base Counter — Minimal Hardhat Template
 
-### Quickstart
-1. Clone this repo or open it in Remix.
-2. Compile with Solidity 0.8.25.
-3. Deploy to Base mainnet or Base Sepolia.
-4. Verify using Hardhat or Sourcify.
+A small sample Solidity project demonstrating a simple `Counter` contract,  
+built for quick testing and deployment on **Base Mainnet** or **Base Sepolia**.
+
+---
+
+## 🧠 Quickstart
 
 ```bash
 npm install
 npx hardhat compile
-npx hardhat run scripts/deploy.js --network base
+npx hardhat test
+```
+
 ---
-Update: verified deployment scripts added soon.
-Update: added deployment details.
+
+## 🚀 Deploy to Base
+
+```bash
+npx hardhat run scripts/deploy.js --network base
+```
+
+To deploy on Base Sepolia (testnet):
+
+```bash
+npx hardhat run scripts/deploy.js --network baseSepolia
+```
+
+---
+
+## 🧪 Project structure
+
+```
+contracts/
+ └── Counter.sol
+scripts/
+ └── deploy.js
+test/
+ └── Counter.test.js
+hardhat.config.js
+```
+
+---
+
+## 🗺️ Roadmap
+- [ ] Add verification example via Basescan  
+- [ ] Add minimal UI for interaction  
+- [ ] Add automated deploy GitHub Action  
+
+---
+
+## 🪪 License
+MIT © 2025 Igor
