@@ -1,0 +1,11 @@
+# Node / Hardhat
+node_modules/
+artifacts/
+cache/
+
+# Environment files
+.env
+
+# Logs
+npm-debug.log*
+yarn-error.log*
